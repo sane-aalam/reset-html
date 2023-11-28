@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MDN web docs</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    /* copy into the mdn website */
+    :root,
+    body {
+      --mdn-color-white: #fff;
+      --mdn-color-black: #000;
+      --mdn-color-ads: #00d0aa;
+      --mdn-color-background-highlight: #f0e498;
+      --mdn-color-dark-grey: #4e4e4e;
+      --mdn-background-dark: #1b1b1b;
+      --mdn-background-light: #fff;
+      --mdn-background-light-grey: #e2e2e2;
+      --color-announcement-banner-accent: #ff6d91;
+    }
+    nav {
+      display: flex;
+      background-color: var(--mdn-background-dark);
+      color: var(--mdn-background-light);
+      justify-content: space-evenly;
+      align-items: center;
+      height: 53px;
+    }
+    #first-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      margin-right: 150px;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    ul li {
+      list-style-type: none;
+      margin-left: 4rem;
+    }
+    ul li a {
+      text-decoration: none;
+      color: var(--mdn-background-light);
+    }
+    div input {
+      padding: 10px;
+      border-radius: 15px;
+    }
+    #backspan {
+      color: #8cb4ff;
+    }
+  </style>
+  <body>
+    <nav>
+      <div id="first-container">
+        <div class="logo">mdn<span id="backspan">__</span></div>
+        <ul>
+          <li><a href=""> References </a></li>
+          <li><a href=""> Guides </a></li>
+          <li><a href=""> Plus </a></li>
+          <li><a href=""> Blog </a></li>
+          <li><a href=""> Play </a></li>
+          <li><a href=""> AI Help </a></li>
+          <li><a href=""> BETA </a></li>
+        </ul>
+      </div>
+      <div id="second-container">
+        <input type="text" placeholder="search about html" />
+      </div>
+    </nav>
+  </body>
+</html>
